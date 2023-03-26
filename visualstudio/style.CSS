@@ -6,23 +6,32 @@ body{
 }
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:blueviolet;
-    text-align: left;
+    color:white;
+    text-align: center; 
+    font-size: 60px;
+
 }
 body {
-    background-image: url(fondo.co.jpg);
+    background-image: url(fondo.co..jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header{
-    background-color: aquamarine;
+    background-color: rgba(59, 57, 57, 0.603);
+    color: bisque;
+    text-shadow: 3px 3px 1px black;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 10vh;
     display: flex;
     align-items: center;
-
-    menu{
+}
+.menu{  
         position: absolute;
         top: 10px;
         left: 0;
@@ -31,4 +40,23 @@ header{
         align-items: center;
         justify-content: space-between;
         z-index: 1000;
-    }
+    } 
+
+.text {
+    text-align: justify;
+} 
+.imag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+html {
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: beige;
+    text-shadow: 3px 3px 1px black;
+}
