@@ -31,7 +31,7 @@ header{
     display: flex;
     align-items: center;
 }
-.menu{  
+menu{  
         position: absolute;
         top: 10px;
         left: 0;
@@ -42,10 +42,10 @@ header{
         z-index: 1000;
     } 
 
-.text {
+text {
     text-align: justify;
 } 
-.imag {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
